@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>谱面制作与导入[Under Construction] | 天生万物~</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://C-F0x.github.io//favicon.ico?v=1685491557106">
+<link rel="stylesheet" href="https://C-F0x.github.io//styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="正如其他音樂遊戲的譜面製作那樣，在製作前，你應當相對熟悉下官譜中的配置。
+SDVX的譜面製作比其他音樂遊戲還要多兩步，
+即對於fx的編輯和特效編輯
+具體見bilibili@ @-zade- 的教程
+ こ ↑ こ ↓ 
+制作好后你可以通过ks..." />
+    <meta name="keywords" content="Sound_Voltex" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://C-F0x.github.io/">
+        <img src="https://C-F0x.github.io//images/avatar.png?v=1685491557106" class="site-logo">
+        <h1 class="site-title">天生万物~</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="https://C-F0x.github.io/post/intro" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://c-f0x.github.io/tag/sdvx/" class="site-nav">
+            SOUND VOLTEX
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <a href="https://maimai.fandom.com/zh/wiki/BREaK!_BREaK!_BREaK!">BREaK <a><a href="http://www.tano-c.net/release/tcdr-0097">thr0ugh <a><a href="https://remywiki.com/Ryu_BEST_-MOONLiGHT-">MOONLiGHT <a>
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://www.ubisoft.com/" target="_blank">POTATO</a> | <a class="rss" href="https://C-F0x.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">谱面制作与导入[Under Construction]</h2>
+            <div class="post-date">2023-05-19</div>
+            
+            <div class="post-content" v-pre>
+              <p>正如其他音樂遊戲的譜面製作那樣，在製作前，你應當相對熟悉下官譜中的配置。<br>
+SDVX的譜面製作比其他音樂遊戲還要多兩步，<br>
+即對於fx的編輯和特效編輯<br>
+具體見bilibili@<a href="https://space.bilibili.com/3431129"> @-zade- </a>的教程<br>
+<a href="https://www.bilibili.com/read/readlist/rl371766"> こ ↑ こ ↓ </a></p>
+<p>制作好后你可以通过ksm/usc进行简单的载入游玩，不再赘述</p>
+<p>下面的教程是关于导入HDD的<br>
+1.谱面转换<br>
+HDD运行的谱面格式是.vox，KSM/USC运行的谱面格式是.ksh，不过好在有现成的转换项目可供选择<br>
+<a href="https://github.com/SirusDoma/VoxCharger"> VoxCharger </a>(C#)<br>
+<a href="https://github.com/boringcactus/ksh2vox">ksh2vox</a>(Python)<br>
+其中VoxCharger提供了GUI处理界面，易于上手，缺点是不支持音效和特效(截至20230519)，<br>
+ksh2vox则相反，不易上手但是支持音效特效的载入</p>
+<p>2.音频转换</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://C-F0x.github.io/tag/sdvx/" class="tag">
+                    Sound_Voltex
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://C-F0x.github.io/post/yi-xie-huo-xu-hui-yong-dao-de-wang-zhan/">
+                  <h3 class="post-title">
+                    One More Thing
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>

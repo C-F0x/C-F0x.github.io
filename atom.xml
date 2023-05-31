@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://C-F0x.github.io/</id>
+    <title>天生万物~</title>
+    <updated>2023-05-31T00:05:59.500Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://C-F0x.github.io/"/>
+    <link rel="self" href="https://C-F0x.github.io/atom.xml"/>
+    <subtitle>&lt;a href=&quot;https://maimai.fandom.com/zh/wiki/BREaK!_BREaK!_BREaK!&quot;&gt;BREaK &lt;a&gt;&lt;a href=&quot;http://www.tano-c.net/release/tcdr-0097&quot;&gt;thr0ugh &lt;a&gt;&lt;a href=&quot;https://remywiki.com/Ryu_BEST_-MOONLiGHT-&quot;&gt;MOONLiGHT &lt;a&gt;</subtitle>
+    <logo>https://C-F0x.github.io/images/avatar.png</logo>
+    <icon>https://C-F0x.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 天生万物~</rights>
+    <entry>
+        <title type="html"><![CDATA[KFC异常相关]]></title>
+        <id>https://C-F0x.github.io/post/kfc-error/</id>
+        <link href="https://C-F0x.github.io/post/kfc-error/">
+        </link>
+        <updated>2023-05-24T11:56:41.000Z</updated>
+        <content type="html"><![CDATA[<p><strong><strong>不要修改其他内容，除非你知道你在做什么</strong></strong></p>
+<p><strong>曲目丢失</strong><br>
+修改 asphyxia-core-x64\plugins\sdvx@asphyxia\handlers\common.ts 中<br>
+let songNum = 2000 --&gt; let songNum = 3000</p>
+<p><strong>登入界面不显示个人数据六维表</strong><br>
+修改 asphyxia-core-x64\plugins\sdvx@asphyxia\data\exg.ts 中<br>
+在<br>
+&quot;<br>
+//'EVENTDATE_APRILFOOL',<br>
+//'KONAMI_50TH_LOGO',<br>
+&quot;<br>
+后面，添加<br>
+&quot;<br>
+'S_PUC_EFFECT_ENABLE',<br>
+'PLAYER_RADAR_ENABLE',<br>
+&quot;</p>
+<p><strong>回线紊乱</strong><br>
+在确认你已经切换到本blog推荐的分支插件的前提下，<br>
+注意是否开启了电脑端的热点功能，如果打开了，关闭即可。<br>
+同时注意氧无核心的命令行输出内容，已知 只要任意配置文件报错，该插件自动被屏蔽.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KFC运行相关]]></title>
+        <id>https://C-F0x.github.io/post/kfc-run/</id>
+        <link href="https://C-F0x.github.io/post/kfc-run/">
+        </link>
+        <updated>2023-05-24T11:17:07.000Z</updated>
+        <content type="html"><![CDATA[<p>观看本教程之前务必将软件全部切换为<a href="https://c-f0x.github.io/post/kfc-software/">KFC运行相关</a></p>
+<p>本教程主要讲解以上部分分支的额外内容</p>
+<p><strong>Asphyxia_Plugins By 22vv0</strong></p>
+<p>0.安装到氧无核心的plugins文件夹</p>
+<p>基本配置：<br>
+打开氧无控制面板，找到右侧SDVX栏--&gt;Overview目，<br>
+1.进行你需要的配置勾选<br>
+2.在该目的右侧Exceed Gear Data Directory录 填写SDVX的绝对地址（例如 E:\SDVX-KFC）<br>
+注意目标位置即soundvoltex.dll所在目录<br>
+3.点击左侧Update Webui Assets录，<br>
+然后在&quot;Update WebUI Assets (pull from game files)&quot;找到绿色的&quot;Update&quot;按钮，点击后再点击弹出窗口中的&quot;确认/OK&quot;,等待至命令行输出以下字样<br>
+&quot;Running....<br>
+Done.&quot;</p>
+<p>个人数据查看(部分内容支持修改)：<br>
+右侧SDVX栏--&gt;Profiles目--&gt;点击 你需要查看/修改的账号的 Detail<br>
+Detail 为你目前账号总览<br>
+Setting 中你可以修改个人信息，手台显示样式，副屏背景，游玩BGM，表情（雾），修改后可以点击Play进行预览<br>
+<strong>修改完毕记得点击Submit进行提交</strong><br>
+Score 为你所有曲目的成绩显示，并且支持修改排列顺序<br>
+<s>Course是干什么的我也不知道，请窒息</s><br>
+后面两个生成器（Generator）是字面意思，<s>不会真的有人不开解锁，手动添加吧</s></p>
+<p>游戏所有曲目数据查看<br>
+右侧SDVX栏--&gt; Songs List目，同样支持按照不同的等级进行排序和搜索</p>
+<p>解锁部分奖励<br>
+右侧SDVX栏--&gt; Unlocking Events目，<s>不会真的有人不开全解锁，手动登录解锁吧</s></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[修正 emuline.org维护中]]></title>
+        <id>https://C-F0x.github.io/post/Emuline_msg/</id>
+        <link href="https://C-F0x.github.io/post/Emuline_msg/">
+        </link>
+        <updated>2023-05-22T12:23:53.000Z</updated>
+        <content type="html"><![CDATA[<p><s>在</s><br>
+<s>[UTC+8]2023.05.22 <s><s>12:19</s></s>(仍可访问，我所保存的最后的正常访问记录)</s>~<a href="https://web.archive.org/web/20230522122401/https://www.emuline.org/"><s>12:24</s></a>~~</p>
+<p><s>时许,</s><br>
+<s><strong>emuline.org已进入幻想</strong></s><br>
+<s>提示结果为</s><br>
+<s>&quot;Forbidden</s><br>
+<s>You don't have permission to access this resource.Server unable to read</s> <s>htaccess file, denying access to be safe&quot;</s><br>
+<s>初步判断为论坛主手动关闭论坛，</s><br>
+<s>保持默哀...</s><br>
+20230524 更新 maintenance...</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[杂-2023052100]]></title>
+        <id>https://C-F0x.github.io/post/misc-2023052100/</id>
+        <link href="https://C-F0x.github.io/post/misc-2023052100/">
+        </link>
+        <updated>2023-05-20T16:52:18.000Z</updated>
+        <content type="html"><![CDATA[<p>今天去机厅搓了会国框SDVX，结果碰上扫码后无法登录，喊机修过来网线重插后机子重启后才开始玩。<br>
+浪费了20min这样，不过最后他也帮我投了2币hh，权当没亏损了hh</p>
+<p>再聊聊体验具体差距，不支持调音量，四台机器的耳机孔，三台明显故障，要么单耳要么只有背景音，还有一台要旋转耳机接口才有概率正常播放。<br>
+旋钮容易飞，死区又过大。前者可以自带L形六边形扳手解决，后者就必须找机修了hh</p>
+<p>而相比之下击中萌只需要软件层面的调整就能获得相对不错的体验，又倍感手台的优越性了。<br>
+至于官框？游玩花费权当赎罪券购买了hhh</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[谱面制作与导入[Under Construction]]]></title>
+        <id>https://C-F0x.github.io/post/sdvx_fanmade/</id>
+        <link href="https://C-F0x.github.io/post/sdvx_fanmade/">
+        </link>
+        <updated>2023-05-19T02:00:54.000Z</updated>
+        <content type="html"><![CDATA[<p>正如其他音樂遊戲的譜面製作那樣，在製作前，你應當相對熟悉下官譜中的配置。<br>
+SDVX的譜面製作比其他音樂遊戲還要多兩步，<br>
+即對於fx的編輯和特效編輯<br>
+具體見bilibili@<a href="https://space.bilibili.com/3431129"> @-zade- </a>的教程<br>
+<a href="https://www.bilibili.com/read/readlist/rl371766"> こ ↑ こ ↓ </a></p>
+<p>制作好后你可以通过ksm/usc进行简单的载入游玩，不再赘述</p>
+<p>下面的教程是关于导入HDD的<br>
+1.谱面转换<br>
+HDD运行的谱面格式是.vox，KSM/USC运行的谱面格式是.ksh，不过好在有现成的转换项目可供选择<br>
+<a href="https://github.com/SirusDoma/VoxCharger"> VoxCharger </a>(C#)<br>
+<a href="https://github.com/boringcactus/ksh2vox">ksh2vox</a>(Python)<br>
+其中VoxCharger提供了GUI处理界面，易于上手，缺点是不支持音效和特效(截至20230519)，<br>
+ksh2vox则相反，不易上手但是支持音效特效的载入</p>
+<p>2.音频转换</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[One More Thing]]></title>
+        <id>https://C-F0x.github.io/post/yi-xie-huo-xu-hui-yong-dao-de-wang-zhan/</id>
+        <link href="https://C-F0x.github.io/post/yi-xie-huo-xu-hui-yong-dao-de-wang-zhan/">
+        </link>
+        <updated>2023-05-18T15:20:47.000Z</updated>
+        <content type="html"><![CDATA[<p>https://patcher.turksigara.net/</p>
+<p>https://www.komani.moe/</p>
+<p>https://voltexes.com/useful-links/</p>
+<p><s>https://www.emuline.org/topic/1915-arcade-pc-sdvx-vivid-wave/</s></p>
+<p>https://juhaojun.notion.site/juhaojun/SoundVoltex-456-b557186e36bc4db3917bcf63adf1637d</p>
+<p>http://teknoparrot.link.free.fr/multi/Sound%20Voltex%20V.html</p>
+<p>非必要，请勿传播</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SDVX介绍与入门]]></title>
+        <id>https://C-F0x.github.io/post/sdvx-noob/</id>
+        <link href="https://C-F0x.github.io/post/sdvx-noob/">
+        </link>
+        <updated>2023-05-18T14:46:08.000Z</updated>
+        <content type="html"><![CDATA[<p>不重复造轮子了<br>
+@PizzaMust https://konami.sb/zh/guide/<br>
+@TwinIsland https://www.erdao.me/nichijou/206.html<br>
+不过值得重申的是<br>
+<strong>请铭记，</strong><br>
+<strong>除了科乐美官方的EAC版（家用版），</strong><br>
+<strong>你所接触到的一切 HDD 好弟弟 或是相关表述，</strong><br>
+<strong>都是对科乐美原版街机游戏的硬盘破解版。</strong></p>
+<p><strong>无论你是通过何种渠道，</strong><br>
+<strong>用何种方式运行该类游戏，</strong><br>
+<strong>都构成了对科乐美公司著作权的侵犯。</strong></p>
+<p><s>妥协一下就是<br>
+&quot;牢记不要在公开场合分享，<br>
+玩盗版游戏从来都不是合理合法的事！<br>
+仅分享给其他<strong><strong>有需要的</strong></strong>SDVX玩家！&quot;</s></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KFC软件相关]]></title>
+        <id>https://C-F0x.github.io/post/kfc-software/</id>
+        <link href="https://C-F0x.github.io/post/kfc-software/">
+        </link>
+        <updated>2023-05-18T14:08:08.000Z</updated>
+        <content type="html"><![CDATA[<p><strong><s>官方年久失修，所以大部分建议切换到分支</s></strong></p>
+<ul>
+<li><a href="https://spice2x.github.io/">Spice2x</a></li>
+</ul>
+<p><s>官方介绍 Translated by ChatGPT</s><br>
+spice2x是SpiceTools的分支，专注于解决错误、提高易用性和改进用户体验。<br>
+spice2x二进制文件旨在成为现有安装（spice.exe、spice64.exe、spicecfg.exe）的即插即用替代品。<br>
+我们与原始的SpiceTools开发人员没有任何关联。SpiceCompanion应用程序也是由应用程序开发人员拥有的独立项目。<br>
+我们将努力跟上上游的变化。<br>
+release渠道下载即可</p>
+<ul>
+<li><a href="https://github.com/asphyxia-core/asphyxia-core.github.io/">Asphyxia_Core</a></li>
+</ul>
+<p>没啥好说的，本地服务器部署的本体，release渠道下载即可</p>
+<ul>
+<li><a href="https://github.com/22vv0/asphyxia_plugins">Asphyxia_Plugins By 22vv0</a></li>
+</ul>
+<p>该分支提供更多定制功能，酷！<br>
+不管是官方插件还是该分支，下载方式都应该是Code--&gt;Download Zip<br>
+<s>Release渠道年久失修</s></p>
+<ul>
+<li><a href="https://github.com/mon/ifs_layeredfs">data_mods启用工具</a></li>
+</ul>
+<p>值得一提的是，spice2x默认阻止了第三方dll的运行，你需要将上述链接中的release内容下载解压到&quot;soundvoltex.dll&quot;同目录后，在&quot;spicecfg.exe&quot;中切换到Options页，Common目， 找到&quot;Inject DLL Hook&quot;项，在后面填写&quot;ifs_hook.dll&quot;<br>
+然后你就可以在游玩时启用mod文件夹内的内容了</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[源台改造计划]]></title>
+        <id>https://C-F0x.github.io/post/Project-Yuancon-Modification/</id>
+        <link href="https://C-F0x.github.io/post/Project-Yuancon-Modification/">
+        </link>
+        <updated>2023-05-18T13:31:01.000Z</updated>
+        <content type="html"><![CDATA[<p>阿B上有个<a href="https://www.bilibili.com/read/cv15843437">源台改造</a>,看了后决定也开始客制化了hhh</p>
+<p>准备<br>
+1.GPL105(液态润滑油)<br>
+2.EVA棉0.3mm~0.5mm, 25度高弹<br>
+3.螺丝刀(十字,六角),六角L形扳手...</p>
+<p>目标问题<br>
+1.弹簧颤音<br>
+2.空腔回响<br>
+3.打击手感<br>
+4.按键噪音</p>
+<p>结果<br>
+解决 1<br>
+改善 2,3<br>
+似乎改善 4</p>
+<p>具体:<br>
+**弹簧润油: **<br>
+0.一般买的时候都会送工具包，具体要用到的就是一个刷子和镊子（或者其他任何能代替手固定弹簧的工具）</p>
+<p>1.取下底板，依次旋下微动, 底座卡扣</p>
+<p>2.取下按键，按住尾部白色卡扣并内压以分离按键，注意<strong>不要丢失弹簧</strong></p>
+<p>3.将GPL105滴在刷子上，以覆盖刷子表面为佳</p>
+<p>4.重点刷弹簧上下端，注意在刷完一端后建议用工具取代手进行固定/安装，以避免削弱客制化效果</p>
+<p>5.将弹簧竖直安装在白色按钮内部，再将按钮组合回一体</p>
+<p>6.安装后自行用工具将弹簧校正位置，即让弹簧能够被四个挡板都承住</p>
+<p>7.旋回卡扣，微动，可以自行查看微动对应连接的基板位置以避免连错。<br>
+<s>实际上连错也不要紧，自己重新bind即可</s></p>
+<p><strong>添加棉体</strong><br>
+可选<br>
+1.亚克力板与框体夹层之间（需要拆除顶板的四颗六角形螺丝和旋钮盖帽）<br>
+2.按键与底座卡扣之间<br>
+3.底部</p>
+<p>值得一提的是，<br>
+a.如果需要在棉体中嵌入按键，可以在棉体上开一个小口，再将按键压入，即可避免孔径过大问题<br>
+b.安装棉体后手台可能出现变形，可以通过拧紧螺丝/减少棉体注入以缓解/解决变形问题</p>
+<p>最后，建议重新调整旋钮灵敏度</p>
+<p>Have fun, Good Game!!</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intro]]></title>
+        <id>https://C-F0x.github.io/post/intro/</id>
+        <link href="https://C-F0x.github.io/post/intro/">
+        </link>
+        <updated>1969-12-31T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p><strong>即使你知道我是谁，也请不要宣传，因为这会带来不必要的困扰，谢谢</strong></p>
+<p>希望博客里的内容在未来的某个时间对你有所帮助，<br>
+因为多年前的笔者，也曾在网络偏隅寻得前人珠玉</p>
+]]></content>
+    </entry>
+</feed>

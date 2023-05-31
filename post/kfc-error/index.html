@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>KFC异常相关 | 天生万物~</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://C-F0x.github.io//favicon.ico?v=1685491557106">
+<link rel="stylesheet" href="https://C-F0x.github.io//styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="不要修改其他内容，除非你知道你在做什么
+曲目丢失
+修改 asphyxia-core-x64\plugins\sdvx@asphyxia\handlers\common.ts 中
+let songNum = 2000 --&gt; let s..." />
+    <meta name="keywords" content="Sound_Voltex" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://C-F0x.github.io/">
+        <img src="https://C-F0x.github.io//images/avatar.png?v=1685491557106" class="site-logo">
+        <h1 class="site-title">天生万物~</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="https://C-F0x.github.io/post/intro" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://c-f0x.github.io/tag/sdvx/" class="site-nav">
+            SOUND VOLTEX
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      <a href="https://maimai.fandom.com/zh/wiki/BREaK!_BREaK!_BREaK!">BREaK <a><a href="http://www.tano-c.net/release/tcdr-0097">thr0ugh <a><a href="https://remywiki.com/Ryu_BEST_-MOONLiGHT-">MOONLiGHT <a>
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://www.ubisoft.com/" target="_blank">POTATO</a> | <a class="rss" href="https://C-F0x.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">KFC异常相关</h2>
+            <div class="post-date">2023-05-24</div>
+            
+            <div class="post-content" v-pre>
+              <p><strong><strong>不要修改其他内容，除非你知道你在做什么</strong></strong></p>
+<p><strong>曲目丢失</strong><br>
+修改 asphyxia-core-x64\plugins\sdvx@asphyxia\handlers\common.ts 中<br>
+let songNum = 2000 --&gt; let songNum = 3000</p>
+<p><strong>登入界面不显示个人数据六维表</strong><br>
+修改 asphyxia-core-x64\plugins\sdvx@asphyxia\data\exg.ts 中<br>
+在<br>
+&quot;<br>
+//'EVENTDATE_APRILFOOL',<br>
+//'KONAMI_50TH_LOGO',<br>
+&quot;<br>
+后面，添加<br>
+&quot;<br>
+'S_PUC_EFFECT_ENABLE',<br>
+'PLAYER_RADAR_ENABLE',<br>
+&quot;</p>
+<p><strong>回线紊乱</strong><br>
+在确认你已经切换到本blog推荐的分支插件的前提下，<br>
+注意是否开启了电脑端的热点功能，如果打开了，关闭即可。<br>
+同时注意氧无核心的命令行输出内容，已知 只要任意配置文件报错，该插件自动被屏蔽.</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://C-F0x.github.io/tag/sdvx/" class="tag">
+                    Sound_Voltex
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://C-F0x.github.io/post/kfc-run/">
+                  <h3 class="post-title">
+                    KFC运行相关
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
+
+
+
+
+
+  </body>
+</html>
