@@ -10,6 +10,7 @@ categories:
     - CODE
 tags:
     - debug
+    - dev
 build:
     list: always
 

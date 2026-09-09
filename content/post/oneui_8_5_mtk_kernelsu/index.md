@@ -32,3 +32,5 @@ tags:
 
 至于目前，还是用Magisk Alpha，哎。
 
+20260909补： 写了个Kernel Patcher, 把UH, DEFEX, INTEGRITY, FIVE, Config namespace改了，但是RKP和KDP这两个总是kernel panic，后面再说吧。。。调试太累了。 Magisk Alpha真好用。
+
